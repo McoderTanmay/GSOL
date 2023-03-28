@@ -1,0 +1,26 @@
+.logout{
+    background: #c62f0d !important;
+    
+    margin-left: 70vw;
+    border-radius: 16px;
+    cursor: pointer;
+    color: white !important;
+}
+.log_btn{
+    transform:translateY(1vh);
+}
+@media(max-width:1000px){
+    .logout{
+        margin-left: 0vh;
+        padding-left: 5px !important;
+    }
+}
+.navbar{
+    background: #6F1A07 !important;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+}

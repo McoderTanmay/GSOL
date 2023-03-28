@@ -1,0 +1,58 @@
+.form01{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 91.5vh;
+    background-image: url(./IMG-20230328-WA0005\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.outerform01{
+    margin-top: 2em;
+    width: 40%;
+    height: 40vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9px;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    background-color: rgba(255, 255, 255, 0.365);
+    backdrop-filter: blur(4px);
+}
+.form02{
+    margin-bottom: 1em;
+}
+.inputEmail{
+    margin-left: 5px;
+    border: 1px solid;
+    border-radius: 6px;
+}
+.inputEmail:focus{
+    outline: none;
+}
+.invalidEmail{
+    border-color: rgb(255, 92, 92);
+    background: #fbdada;
+}
+.labelEmail{
+    padding-right: 96px;
+}
+.labelPass{
+    padding-right: 80px;
+}
+.inputEmail{
+    width: 61%;
+}
+.inputPasswd{
+    width: 61%;
+    border: 1px solid;
+    border-radius: 6px;
+}
+.inputPasswd:focus{
+    outline: none;
+}
+.invalidpass{
+    border-color: rgb(255, 92, 92);
+    background: #fbdada;
+}

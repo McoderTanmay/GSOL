@@ -1,0 +1,16 @@
+.cover{
+    background-color: rgb(176, 8, 106);
+    width: 50%;
+    margin-bottom: 1em;
+}
+.cover ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.cover ul li{
+    margin:1em;
+}
+.listitem{
+    color: white;
+}
