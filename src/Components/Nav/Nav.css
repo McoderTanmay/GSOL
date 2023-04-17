@@ -1,7 +1,6 @@
 .logout{
-    background: #c62f0d !important;
-    
-    margin-left: 70vw;
+    background: rgb(2, 63, 143) !important;
+    margin-left: 68vw;
     border-radius: 16px;
     cursor: pointer;
     color: white !important;
@@ -16,11 +15,14 @@
     }
 }
 .navbar{
-    background: #6F1A07 !important;
+    background: rgb(0, 31, 71) !important;
 }
 .nav-link{
     color: white !important;
 }
 .navbar-brand{
     color: white !important;
+}
+.info{
+    width: 7em;
 }

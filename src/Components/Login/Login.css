@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+ 
+
 .form01{
     width: 100%;
     display: flex;
@@ -7,12 +11,12 @@
     background-image: url(./IMG-20230328-WA0005\(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    padding-top: 10%;
 }
 .outerform01{
     margin-top: 2em;
     width: 40%;
-    height: 40vh;
+    height: 365px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 9px;
     padding-top: 1.5em;
@@ -43,11 +47,24 @@
 }
 .inputEmail{
     width: 61%;
+    border-radius: 10px;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
 }
 .inputPasswd{
     width: 61%;
     border: 1px solid;
-    border-radius: 6px;
+    border-radius: 10px;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
 }
 .inputPasswd:focus{
     outline: none;
@@ -55,4 +72,35 @@
 .invalidpass{
     border-color: rgb(255, 92, 92);
     background: #fbdada;
+}
+.login-text{
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(90deg,rgb(19, 13, 13),rgb(19, 13, 13),rgb(35, 83, 146),rgb(35, 83, 146));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 600;
+    padding-bottom: 10%;
+}
+.forbtn{
+    text-align: center;
+}
+.login-btn{
+    margin-top: 4%;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(90deg,rgb(19, 13, 13),rgb(19, 13, 13),rgb(35, 83, 146),rgb(35, 83, 146)) ;
+}
+.labelPass input{
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }

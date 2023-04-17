@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import {Route,Routes} from "react-router-dom"
 import "./App.css";
 import Nav from "./Components/Nav/Nav";
 import Login from "./Components/Login/Login";
 import FirstPg from "./Components/Firstpg";
+import About from "./Components/aboutpage/about";
 
 function App() {
   const [isLoggedin, setisLoggedin] = useState(false);
@@ -27,7 +29,13 @@ function App() {
       <Nav onlogout={logoutHandeler}></Nav>
       {!isLoggedin && <Login checkVal={logInHandeler} />}
       <div className="App">
-        {isLoggedin && <FirstPg />}
+        {isLoggedin && 
+        <Routes>
+        <Route path="/Firstpg" element={<FirstPg/>}/>
+        <Route path="/about" element={<About/>}/>
+      </Routes>
+        }
+        
       </div>
     </>
   );

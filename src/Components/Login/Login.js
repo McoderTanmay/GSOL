@@ -51,6 +51,7 @@ function Nav(props) {
   return (
     <div className="form01">
       <form action="" className="outerform01" onSubmit={submitHandeler}>
+      <p className="login-text">Log  In </p>
         <div className="form02">
           <label htmlFor="" className="labelEmail">
             E-Mail
@@ -79,7 +80,7 @@ function Nav(props) {
             onBlur={validatePass}
           />
         </div>
-        <button disabled={!validateForm}>Login</button>
+        <div className="container forbtn"> <button className="login-btn" disabled={!validateForm}>Login</button></div>
       </form>
     </div>
   );
