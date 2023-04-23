@@ -31,11 +31,10 @@ function App() {
       <div className="App">
         {isLoggedin && 
         <Routes>
-        <Route path="/Firstpg" element={<FirstPg/>}/>
+        <Route path="/" element={<FirstPg/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
         }
-        
       </div>
     </>
   );

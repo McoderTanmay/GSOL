@@ -22,7 +22,7 @@ function nav(props) {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <Link class="nav-link info" to='/Firstpg'>
+            <Link class="nav-link info" to='/'>
             Patient-Info <span class="sr-only">(current)</span>
             </Link>
           </li>
